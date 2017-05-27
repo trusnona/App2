@@ -14,7 +14,7 @@ public class App4 {
         System.out.print("password : ");
         String pass = scanner.next();
         
-        if(name.equals("admin") && pass.equals("admin")) {
+        if(name.equals("admin") && pass.equals("admin1234")) {
             System.out.println("Complete");
         }else{
             System.out.println("Wrong");
